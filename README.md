@@ -64,16 +64,18 @@ docker run -d --name spectrball --restart unless-stopped \
   -v $(pwd)/token.max:/app/token.max \
   spectrball-bot
 
-# 🚀 Запуск (Deployment)
-Склонировать репозиторий.
-Положить файл token.max с токеном бота из платформы MAX в корень проекта.
-Собрать образ: 
+## Запуск без Docker (через командную строку)
 
-docker build -t spectrball-bot .
-
-Запустить: 
-
-docker run -d --name spectrball --restart unless-stopped -v $(pwd)/schools:/app/schools spectrball-bot
+1. Установите Python 3.11+.
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Создайте файл `token.max` с токеном бота в корне проекта.
+4. Запустите:
+   ```bash
+   python main.py
+   ```
 
 # 🛡 Защита от накруток
 Лимит передачи баллов: не более 30% от личного баланса в неделю.
