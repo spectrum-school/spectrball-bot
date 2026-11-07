@@ -53,18 +53,18 @@
 
 Выполните сборку образа из корня репозитория:
 
-bash
 Копировать
-docker build -t spectrball-bot .
+   ```bash
+   docker build -t spectrball-bot .
+   ```
 Запустите контейнер:
-bash
-Копировать
+   ```bash
 docker run -d --name spectrball --restart unless-stopped \
   -v $(pwd)/schools:/app/schools \
   -v $(pwd)/token.max:/app/token.max \
   -v $(pwd)/config.json:/app/config.json \
   spectrball-bot
-
+   ```
 ## Запуск без Docker (через командную строку)
 
 1. Установите Python 3.11+.
