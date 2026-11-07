@@ -5,7 +5,7 @@
 🔗 Ссылки
 Бот в MAX: https://max.ru/ideya_fiks_78_bot
 
-Репозиторий: https://github.com/spectrum-school/spektrball
+Репозиторий: https://github.com/spectrum-school/spectrball-bot
 
 # 🧑‍🏫 Целевая аудитория
 Ученики 5–9 классов: получают мгновенную обратную связь за активность.
