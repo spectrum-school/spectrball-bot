@@ -49,8 +49,14 @@
 # 🚀 Запуск (Deployment)
 Склонировать репозиторий.
 Положить файл token.max с токеном бота из платформы MAX в корень проекта.
-Собрать образ: docker build -t spectrball-bot .
-Запустить: docker run -d --name spectrball --restart unless-stopped -v $(pwd)/schools:/app/schools spectrball-bot
+Собрать образ: 
+
+docker build -t spectrball-bot .
+
+Запустить: 
+
+docker run -d --name spectrball --restart unless-stopped -v $(pwd)/schools:/app/schools spectrball-bot
+
 # 🛡 Защита от накруток
 Лимит передачи баллов: не более 30% от личного баланса в неделю.
 Привилегии покупаются только за свой баланс.
