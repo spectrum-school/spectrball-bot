@@ -63,7 +63,6 @@
 docker run -d --name spectrball --restart unless-stopped \
   -v $(pwd)/schools:/app/schools \
   -v $(pwd)/token.max:/app/token.max \
-  -v $(pwd)/config.json:/app/config.json \
   spectrball-bot
    ```
 ## Запуск без Docker (через командную строку)
