@@ -1,0 +1,5 @@
+[
+    {"id": "5555", "name": "Морозов Илья", "balance": 10, "role": "student", "chat_id": null},
+    {"id": "6666", "name": "Соколова Мария", "balance": 200, "role": "student", "chat_id": null},
+    {"id": "8888", "name": "Учитель 7Б", "balance": 0, "role": "teacher", "chat_id": null}
+]

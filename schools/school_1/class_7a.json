@@ -1,0 +1,109 @@
+[
+    {
+        "id": "1111",
+        "name": "Бекетов Роман",
+        "balance": 30,
+        "role": "student",
+        "chat_id": 22392821,
+        "purchases": [
+            {
+                "item": "Сменить место на день",
+                "price": 15,
+                "used": false
+            },
+            {
+                "item": "+1 день к дедлайну ДЗ",
+                "price": 10,
+                "used": false
+            },
+            {
+                "item": "Ответить с места",
+                "price": 5,
+                "used": false
+            }
+        ]
+    },
+    {
+        "id": "2222",
+        "name": "Фёдоров Влад",
+        "balance": 92,
+        "role": "student",
+        "chat_id": 22392821
+    },
+    {
+        "id": "3333",
+        "name": "Филиппов Егор",
+        "balance": 189,
+        "role": "student",
+        "chat_id": 68472994,
+        "purchases": [
+            {
+                "item": "Ответить с места",
+                "price": 5,
+                "used": false
+            },
+            {
+                "item": "Ответить с места",
+                "price": 5,
+                "used": false
+            },
+            {
+                "item": "Ответить с места",
+                "price": 5,
+                "used": false
+            }
+        ]
+    },
+    {
+        "id": "5555",
+        "name": "Воронин Глеб",
+        "balance": 55,
+        "role": "student",
+        "chat_id": 394481829,
+        "purchases": [
+            {
+                "item": "Ответить с места",
+                "price": 5,
+                "used": false
+            },
+            {
+                "item": "Сменить место на день",
+                "price": 15,
+                "used": false
+            },
+            {
+                "item": "Сменить место на день",
+                "price": 15,
+                "used": false
+            }
+        ]
+    },
+    {
+        "id": "4444",
+        "name": "Кузнецова Ольга",
+        "balance": 290,
+        "role": "student",
+        "chat_id": 384977544,
+        "purchases": [
+            {
+                "item": "Выбрать музыку на перемене",
+                "price": 10,
+                "used": false
+            }
+        ]
+    },
+    {
+        "id": "0000",
+        "name": "Пробный Иван",
+        "balance": 100,
+        "role": "student",
+        "chat_id": null
+    },
+    {
+        "id": "9999",
+        "name": "Учитель",
+        "balance": 0,
+        "role": "teacher",
+        "chat_id": 379022055
+    }
+]
