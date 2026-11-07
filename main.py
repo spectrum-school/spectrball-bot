@@ -12,8 +12,14 @@ from maxapi.types.attachments.buttons import CallbackButton
 from maxapi.utils.inline_keyboard import InlineKeyboardBuilder
 
 # ================= НАСТРОЙКИ =================
-with open('token.max') as f:
-    BOT_TOKEN = f.read().strip()
+try:
+    with open('token.max') as f:
+        BOT_TOKEN = f.read().strip()
+except FileNotFoundError:
+    raise SystemExit(
+        "❌ Файл token.max не найден.\n"
+        "Создайте его в корне проекта и поместите туда токен бота из MAX."
+    )
 
 SCHOOLS_DIR = "schools"
 SCHOOL_NAME = "school_1"
