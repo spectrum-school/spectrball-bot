@@ -81,6 +81,7 @@ def init_data():
             {"id": "3333", "name": "Сидоров Максим", "balance": 150, "role": "student", "chat_id": None, "purchases": []},
             {"id": "4444", "name": "Кузнецова Ольга", "balance": 320, "role": "student", "chat_id": None, "purchases": []},
             {"id": "9999", "name": "Учитель", "balance": 0, "role": "teacher", "chat_id": None, "purchases": []},
+            {"id": "0000", "name": "Мария Ивановна", "balance": 0, "role": "teacher", "chat_id": None, "purchases": []}
         ])
         logging.info(f"Создан демо-класс {DEFAULT_CLASS}")
 
